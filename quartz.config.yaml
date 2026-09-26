@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: morningstar-wildrift.github.io/quartz
+  baseUrl: osvaldo-peralta.github.io/GuiasWildRift
   ignorePatterns:
     - private
     - templates
