@@ -1,3 +1,7 @@
+---
+tags:
+  - Barón
+---
 **Fecha del análisis:** 26 de septiembre de 2026  
 **Parche analizado:** 7.3 (lanzamiento oficial: 21 de septiembre de 2026)  
 

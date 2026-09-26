@@ -1,5 +1,7 @@
-# RAMMUS — Wild Rift Parche 7.3: Build Optimizada desde Cero (Análisis Matemático)
-
+---
+tags:
+  - Jungla
+---
 **Fecha del análisis:** 26 de septiembre de 2026  
 **Parche analizado:** 7.3 (lanzamiento oficial: 21 de septiembre de 2026)  
 **Metodología:** notas oficiales del parche 7.3 y 7.2, base de datos de ítems/runas actualizada al 24-sep-2026 (wr-meta.com), y modelo propio `wr-lab/model/dps_model.py` adaptado para campeones tanque/jungla (spec `rammus`).

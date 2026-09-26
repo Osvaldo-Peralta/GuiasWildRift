@@ -28,7 +28,7 @@ https://www.wildriftguides.com/
 
 ## Páginas de este documento
 
-- [Jinx](obsidian://open?vault=quartz-wildrift&file=content%2FJinx)— ADC/Marksman, incluye variante anti-tanque/anti-sustain (Dr. Mundo, Cho’Gath)
+- [[Jinx]] — ADC/Marksman, incluye variante anti-tanque/anti-sustain (Dr. Mundo, Cho’Gath)
 - [[Caitlyn]]— ADC/Marksman (S+), build de headshot y control de línea
 - [Sivir](https://docs.superhuman.com/d/_dTE9XAGKaX3/_sutrSxhD)— ADC/Marksman, tirador de utilidad y escalado
 - [Kalista](https://docs.superhuman.com/d/_dTE9XAGKaX3/_suCLs-dL)— ADC/Marksman (Tirador)
@@ -41,11 +41,7 @@ https://www.wildriftguides.com/
 
 (Cada nombre de arriba es también el título de su página correspondiente en el panel lateral.)
 
-
-### Prompt para la IA
-  Usando wr-lab, genera el análisis completo nivel-Jinx para {CAMPEÓN} en el parche vigente, con reporte en Markdown según TEMPLATE_REPORTE.md listo para ser descargado
-    - Usando WR-LAB, genera el análisis nivel-Jinx para {CAMPEÓN}
-    - Usando wr-lab, genera el análisis completo nivel-Jinx para {CAMPEÓN} en el parche vigente, con reporte en Markdown según TEMPLATE_REPORTE.md, en un archivo listo para ser descargado
+---
 
 This is a blank Quartz installation.
 See the [documentation](https://quartz.jzhao.xyz) for how to get started.

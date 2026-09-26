@@ -1,5 +1,7 @@
-# Volibear — Wild Rift Parche 7.3: Build Optimizada desde Cero (Análisis Matemático)
-
+---
+tags:
+  - Jungla
+---
 **Fecha del análisis:** 26 de septiembre de 2026  
 **Parche analizado:** 7.3 (lanzamiento oficial: 21 de septiembre de 2026)  
 **Rol principal:** Jungla / Top Lane  

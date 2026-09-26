@@ -1,7 +1,7 @@
 ---
 tags:
   - Jungla
-  - Midlane
+  - Mid
 ---
 
 **Fecha del análisis:** 26 de septiembre de 2026

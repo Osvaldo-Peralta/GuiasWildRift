@@ -1,3 +1,7 @@
+---
+tags:
+  - Soporte
+---
 **Fecha del análisis:** 26/09/2026 · **Parche:** 7.3 (21-sep-2026)  
 
 ## 0. RESUMEN EJECUTIVO
