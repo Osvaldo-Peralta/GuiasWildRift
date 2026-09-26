@@ -35,7 +35,7 @@ https://www.wildriftguides.com/
 - [[Diana]] — Mid/Jungla
 - [[Yuumi]] — Support/Encantadora, campeona "pegada" enfocada en potenciar a su aliado
 - [[Mordekaiser]] — Carril Barón (Top), bruiser de AP
-- [Cho'Gath](https://docs.superhuman.com/d/_dTE9XAGKaX3/_su595b_o) — Carril Barón (Top/Jungla), tanque de escalado con Feast
+- [[Cho'Gath]] — Carril Barón (Top/Jungla), tanque de escalado con Feast
 - [Shyvana](https://docs.superhuman.com/d/_dTE9XAGKaX3/_suBskMO1)— Jungla, Dragón/half-dragón
 - [[Volibear]] — Jungla/Carril Barón, bruiser de iniciación
 
