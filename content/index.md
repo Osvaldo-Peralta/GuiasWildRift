@@ -30,13 +30,13 @@ https://www.wildriftguides.com/
 
 - [[Jinx]] — ADC/Marksman, incluye variante anti-tanque/anti-sustain (Dr. Mundo, Cho’Gath)
 - [[Caitlyn]]— ADC/Marksman (S+), build de headshot y control de línea
-- [Sivir](https://docs.superhuman.com/d/_dTE9XAGKaX3/_sutrSxhD)— ADC/Marksman, tirador de utilidad y escalado
-- [Kalista](https://docs.superhuman.com/d/_dTE9XAGKaX3/_suCLs-dL)— ADC/Marksman (Tirador)
+- [[Sivir]]— ADC/Marksman, tirador de utilidad y escalado
+- [[Kalista]]— ADC/Marksman (Tirador)
 - [[Diana]] — Mid/Jungla
 - [[Yuumi]] — Support/Encantadora, campeona "pegada" enfocada en potenciar a su aliado
 - [[Mordekaiser]] — Carril Barón (Top), bruiser de AP
 - [[Cho'Gath]] — Carril Barón (Top/Jungla), tanque de escalado con Feast
-- [Shyvana](https://docs.superhuman.com/d/_dTE9XAGKaX3/_suBskMO1)— Jungla, Dragón/half-dragón
+- [[Shyvana]]— Jungla, Dragón/half-dragón
 - [[Volibear]] — Jungla/Carril Barón, bruiser de iniciación
 
 (Cada nombre de arriba es también el título de su página correspondiente en el panel lateral.)
