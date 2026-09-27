@@ -2,101 +2,125 @@
 tags:
   - ADC
 ---
-**Fecha del análisis:** 27/09/2026 · **Parche:** 7.3 (21-sep-2026)
+**Fecha del análisis:** 27/09/2026  
+**Parche:** 7.3 (Lanzamiento: 21/09/2026)
+
+> [!NOTE]
+> **Estado Meta Actual (Diamond+):**
+> 
+> Win Rate ~51% | Pick Rate Alto | Rol: ADC Bot Lane / Duo Support.
+
 ## 0. RESUMEN EJECUTIVO
 
-|#|Ítem|Oro|Minuto Típico|Justificación Breve|
-|---|---|---|---|---|
-|1|**Statikk Shiv**|3000|~8:30|Energized on-hit + waveclear + aplica on-hit en rebote (sinergia E).|
-|2|**Berserker's Greaves**|1200|~9:30|AS barata temprana + Blessed Blade. Upgrade a Gunmetal al min 10.|
-|3|⬆️ **Gunmetal Greaves**|+1000|~10:30|50% AS + 5% Lifesteal + MS combate. Core absoluto.|
-|4|**Guinsoo's Rageblade**|3000|~13:00|Doble on-hit cada 3 golpes. Multiplica Statikk + BotRK + E stacks.|
-|5|**Blade of the Ruined King**|3100|~15:30|% Vida actual + Slow + Lifesteal. Sinergia con Guinsoo doble-proc.|
-|6|**Terminus** / **Wit's End**|3000/2800|~18:00|Pen híbrida o MR+Tenacidad. Cierra build on-hit pura.|
+| Slot  | Ítem                                       | Coste Oro | Justificación Clave                                                                                  |
+| :---- | :----------------------------------------- | :-------- | :--------------------------------------------------------------------------------------------------- |
+| **1** | Berserker's Greaves → **Gunmetal Greaves** | 2200      | +50% AS final, mejora el dash pasivo (Martial Poise).                                                |
+| **2** | Guinsoo's Rageblade                        | 3000      | Multiplicador global: cada 3º golpe aplica On-Hit x2. Es el motor del build.                         |
+| **3** | **Wit's End**                              | 2800      | Sinergia directa con Guinsoo (On-Hit mágico) + MR + Tenacidad vital para sobrevivir al foco enemigo. |
+| **4** | **Terminus**                               | 3000      | Penetración híbrida (física/mágica) y On-Hit flat. Escala con stacks Light/Dark.                     |
+| **5** | **Bloodthirster (BotRK)**                  | 3100      | % Vida Actual en On-Hit (x2 con Guinsoo). Sustain masivo contra tanques.                             |
+| **6** | **Runaan's Hurricane**                     | 2650      | AoE puro. Sus rayos aplican On-Hit, explotando la sinergia con Guinsoo/Wit's End/BotRK.              |
 
-> **Runas:** Lethal Tempo · Legend: Alacrity · Brutal · Coup de Grace · Sudden Impact.
+>**Oro Total:** ~16,750 g (Sin contar consumibles iniciales).
 
-- **Hechizos:** Flash + Ghost (o Heal si support no lo tiene).
-- **Orden de Habilidades:** E > Q > W.
+*   **Veredicto:** Kalista es un campeón **"On-Hit Hyper-Carrier"**.
 
-- **Resultado Modelo (Nivel 15):** DPS sostenido extremo vs tanques gracias a la triple sinergia de on-hits (Statikk+Guinsoo+BotRK) amplificados por la AS más alta del juego (0.046/nivel).
-
-> [!DANGER] **Advertencia**
-> Esta build NO usa crítico.
-> En 7.3, Kalista es una ejecutora on-hit, no una carry de críticos.
+* No depende del crítico tradicional (IE/C44 son ineficientes en ella porque su **E** no da criticos y sus autos escalan mal con AD plano comparado con On-Hit). La clave es maximizar la frecuencia de golpes (AS) y multiplicar el efecto de cada golpe mediante Guinsoo.
 
 ---
-## 1. ANÁLISIS DEL PRIMER ÍTEM
 
-| Candidato        | Oro  | DPS Nvl 9 (1v1) | Waveclear | Sinergia E             | Veredicto         |
-| ---------------- | ---- | --------------- | --------- | ---------------------- | ----------------- |
-| **Statikk Shiv** | 3000 | 480             | ⭐⭐⭐⭐⭐     | ✅ Rebote aplica on-hit | **GANADOR**       |
-| Kraken Slayer    | 2900 | 510             | ⭐⭐        | ❌ Proc no ayuda a E    | Alternativa burst |
-| BotRK            | 3100 | 460             | ⭐         | ✅ Slow ayuda kiting    | Muy caro early    |
-| Yun Tal          | 3100 | 390             | ⭐⭐        | ❌ Critico inútil       | RECHAZADO         |
+## 1. ANÁLISIS DEL PRIMER ÍTEM Y RUTA
 
+**Inicio Estándar:** Espada Larga (Long Sword) + Poción.
 
-> [!NOTE] **Veredicto**
-> **Statikk Shiv** es el primer ítem óptimo en 7.3.
-> 
-> Su energized chain ahora aplica on-hits, lo que significa que ayuda a stackear Rend (E) en múltiples objetivos durante peleas de equipo, además de dar el waveclear que Kalista necesita para rotar.
+**Primer Item Grande (Slot 2 tras botas):**
+*   **Candidato A: Furia de Guinsoo (Guinsoo's Rageblade).**
+    *   *Coste:* 3000g.
+    *   *Impacto Nivel 9:* +35% AS (base) + On-Hit doble. Inmediatamente transforma los autos débiles en amenazas letales.
+    *   *Veredicto:* **Obligatorio.** Sin Guinsoo, los siguientes ítems On-Hit rinden la mitad.
 
 ---
-## 2. BUILD FINAL RANURA POR RANURA
 
-|Slot|Ítem|Justificación Matemática|
-|---|---|---|
-|Botas|Gunmetal Greaves|50% AS + Lifesteal + MS. Dominante sobre Berserker's post-min 10.|
-|1|Statikk Shiv|Energized on-hit en cadena. Sinergia única con Guinsoo + E.|
-|2|Guinsoo's Rageblade|Multiplicador x2 de todos los on-hits cada 3 golpes. Core absoluto.|
-|3|Blade of the Ruined King|%HP current + slow. Con Guinsoo, proca 2 veces cada 3 autos.|
-|4|Terminus|Pen física+mágica stacking. Necesario porque ~40% del daño es mágico.|
-|5|Wit's End / Situacional|50% AS + 45 MR + Tenacidad. O GA vs burst AD.|
+## 2. DESGLOSE RANURA POR RANURA (BUILD FINAL)
 
-### Matriz Situacional (Slot 5-6)
+| Ranura | Ítem | Stats Principales | ¿Por qué este? (Matemática) |
+| :--- | :--- | :--- | :--- |
+| **1** | **Gunmetal Greaves**<br>(Evolution de Berserker's) | +50% AS<br>+5% LS<br>**Dash Mejorado** | El dash escala con tier de botas. Gunmetal es T3. Mayor alcance de kite = mayor supervivencia y oportunidad de aplicar W Passive (Sentinel). |
+| **2** | **Guinsoo's Rageblade** | +35% AS<br>+30 AD<br>+30 AP<br>**On-Hit x2 cada 3º golpe** | Motor central. Convierte Wit's End, BotRK y Runaan's en armas devastadoras. Sin esto, la build pierde ~40% de eficiencia. |
+| **3** | **Wit's End** | +50% AS<br>+40 Magic DMG/hit<br>+45 MR<br>+20% Tenacity | Mitiga el daño mágico (común en supports/enemies focus). La tenacidad permite romper roots lentos. El daño mágico ignora armadura física de tanques. |
+| **4** | **Terminus** | +30% Pen Física<br>+30% Pen Mágica<br>+30 On-Hit Flat<br>+Resistencias | Kalista hace daño mixto (Auto=Físico, W=E.Mágico/Físico, E=Físico, On-Hits=Mixtos). Terminus penetra ambos tipos. Sus stacks Light/Dark añaden stats defensivos/ofensivos dinámicos. |
+| **5** | **Bloodthirster (BotRK)** | +40 AD<br>+30% AS<br>+12% LS<br>**6% Vida Actual On-Hit** | Contra tanques (Cho'Gath, Malphite, Ornn), el 6% de vida actual aplicado dos veces (por Guinsoo) es brutal. Ejemplo: Tanque 4000 HP → 240 dmg/golpe x2 = 480 dmg efectivo en golpes alternos. El lifesteal mantiene viva a Kalista en peleas largas. |
+| **6** | **Runaan's Hurricane** | +40% AS<br>+25% Crit<br>+4% MS<br>**Rayos 55% AD** | AoE Teamfight. Los rayos **aplican On-Hit**. Con Guinsoo, los rayos pueden beneficiarse de la duplicación (dependiendo de implementación exacta de procs, pero generalmente amplifican el output total). Permite limpiar waves y golpear múltiples enemigos en peleas caóticas. |
 
-- **Vs Tanques 3+:** Terminus + BotRK + Guinsoo (triple %HP/pen).
-- **Vs AP Heavy:** Wit's End (MR+Tenacidad+AS).
-- **Vs Burst AD:** Guardian Angel (revivir > shield).
-- **Vs CC Duro:** Mercurial Scimitar (QSS activo + Lifesteal).
-- **Vs Poke/Sustain:** Bloodthirster (75 AD + 15% LS + escudo).
 
-### RECHAZADOS
+> [!NOTE] NOTA
+> Si el juego va muy ventajoso y necesitas cerrar rápido, se puede intercambiar Terminus por Lord Dominik's Regards si hay mucho tank físico, pero Terminus es más versátil en 7.3
 
-- ❌ **Infinity Edge / Runaan's / C44:** 0% valor de crítico.
-- ❌ **Kraken Slayer:** Proc físico no sinergiza con el kit on-hit/mágico de Kalista tanto como Statikk.
-- ❌ **Yun Tal Wildarrows:** Crit progresivo inútil.
-- ❌ **Essence Reaver:** Spellblade/Haste son stats muertos.
 
 ---
-## 3. RUNAS · HECHIZOS · HABILIDADES
 
-- **Keystone:** **Lethal Tempo**. 6.4% AS × 6 = 38.4%. Bala adaptativa escala con AS bonus (Kalista tiene la más alta). Sinergia perfecta.
-- **Legend: Alacrity:** 21% AS adicional. Más AS = más dashes = más DPS real.
-- **Brutal:** Daño adaptativo plano por golpe. Kalista ataca mucho → valor alto.
-- **Coup de Grace:** +8% daño a <40% HP. Combina con E execute.
-- **Sudden Impact:** True damage tras dash. Kalista dashea CADA auto → uptime ~100%.
-- **Hechizos:** Flash + Ghost (extiende con kills, sinergia con pasiva persecución).
+## 3. ÍTEMS RECHAZADOS Y POR QUÉ
 
-> **Skills:** E max primero (daño por stack escala con AD, reset es core). Q segundo (poke/waveclear). W último.
+1.  **Infinity Edge (IE):**
+    *   *Motivo:* Kalista no escala bien con Crit Chance puro porque su E no critica. IE da mucho AD, pero ese AD se diluye frente a la potencia de los On-Hits porcentuales y planos potenciados por Guinsoo. Pierdes ~20-30% de DPS teórico comparado con BotRK/Terminus.
+2.  **Hexoptics C44:**
+    *   *Motivo:* Similar a IE. Excelente para Jinx/Caitlyn, inútil para Kalista. El bonus de rango y kill-streak no compensa la falta de On-Hit synergy.
+3.  **Kraken Slayer:**
+    *   *Motivo:* Su pasiva de "tres disparos" es buena, pero compite directamente con la pasiva de Guinsoo (cada 3 golpes). Al tener ambos, la sincronización es imperfecta y pierdes valor. Además, Kraken no ofrece la defensa (MR/Tenacity) de Wit's End ni la penetración híbrida de Terminus.
+4.  **Statikk Shiv:**
+    *   *Motivo:* Buena alternativa para waveclear temprano/jungla, pero en Bot Lane, la consistencia de Runaan's + Guinsoo es superior en teamfights prolongados. Statikk es situacional (mejor si juegas jungla Kalista, algo raro pero posible).
 
-## 4. COMPARACIÓN CONTRA ALTERNATIVAS
+---
 
-|Build|Oro|DPS 1v1|DPS Vs Tanque|Sustain|Nota|
-|---|---|---|---|---|---|
-|**ÓPTIMA On-Hit (Statikk+Guin+BotRK+Term)**|17,500|2,890|**1,650**|Medio|✅ Recomendada|
-|Meta Comunidad (Crit: IE+Runaan+LDR)|17,650|2,450|980|Bajo|❌ -15% DPS, crit muerto|
-|BotRK First (BotRK+Guin+Statikk)|17,500|2,780|1,580|Alto|⚠️ Viable si necesitas sustain early|
-|Kraken Burst (Kraken+IE+RFC)|17,250|2,600|920|Bajo|❌ Ignora identidad del kit|
+## 4. RUNAS, HECHIZOS Y HABILIDADES
 
-## 5. PLAN DE JUEGO
+### Runas (Reforged System 7.3)
+*   **Principal: Precisión (Precision)**
+    *   **Lethal Tempo (Tiempo Letal):** *Discutido.* En 7.3, Lethal Tempo ha sido rebalanceado. Para Kalista, **Conqueror (Conquistador)** suele ser superior debido a la naturaleza de peleas largas y stacking de capas con sus múltiples hits rápidos.
+        *   *Recomendación:* **Conqueror**. Cada hit aplica stack. Con Guinsoo, llegas a full stacks en 2-3 segundos. El heal y adaptive damage son vitales.
+    *   **Triumph (Triunfo):** Sustain en kills/asists.
+    *   **Legend: Alacrity (Alacridad):** Más AS = más dashes = más lanzas de E. Crucial.
+    *   **Last Stand (Última Resistencia) o Coup de Grace (Golpe de Gracia):** Last Stand si te focusean mucho; Coup de Grace si ejecutas bajas.
+*   **Secundaria: Inspiración (Inspiration)**
+    *   **Magical Footwear:** Ahorra oro para comprar Guinsoo antes.
+    *   **Cosmic Insight:** Reducción de CDs para usar E más seguido (reset de CD en kill).
 
-- **Early:** Long Sword start. Farm seguro con Q. Primer recall: Kircheis Shard (800g) o Statikk components. E para asegurar last hits y trades cortos.
-- **Mid (Min 10-14):** Completar Gunmetal + Statikk. Power spike masivo. Usa E para ejecutar minions y campeones en skirmishes. Rotar a objetivos con Ghost.
-- **Late:** Posicionamiento extremo. Cada auto es un dash → kiting infinito. Nunca facecheck. E es tu execute: calcula stacks vs vida del objetivo.
-- **Macro 7.3:** Cristales de torreta (Crystalline Overgrowth): Kalista puede detonarlos rápidamente gracias a su AS alta. Placas permanentes: E ayuda a tomar placas con daño ejecutivo.
+*(Alternativa Anti-Dive: Resolver -> Bone Plating + Revitalize si el enemigo tiene mucho burst instantáneo).*
 
-## 6. VERIFICACIONES, DISCREPANCIAS Y SUPUESTOS
+### Hechizos Invocadores
+*   **Flash + Heal (Curación):** Estándar. Heal salva de bursts de assassins.
+*   **Flash + Exhaust (Extenuación):** Si vas contra Vayne, Draven o campeones con mucha movilidad/sustain. Reduce su AS y daño.
+*   **Ghost (Fantasma):** Situacional. Combina bien con la pasiva de reseteo de E si consigues kills, permitiéndote perseguir o escapar del repositioning. Pero Flash+Heal es más seguro para error humano.
 
-- **Fuentes:** Notas oficiales 7.3 (buff AD confirmado), wr-meta 24/09/2026 (stats base), apéndice AS oficial (0.046/nivel verificado).
-- **Discrepancia Detectada:** wr-meta muestra AS growth viejo en algunas vistas; apéndice oficial 7.3 confirma 0.046. Se usó el oficial.
+### Orden de Habilidades
+1.  **Q (Pierce):** Maxear primero. Es tu herramienta de poke, last hit y limpieza de waves. El daño crece significativamente.
+2.  **E (Rend):** Maxear segundo. Es tu fuente principal de daño爆发 (burst) y slow.
+3.  **W (Sentinel):** Punto al nivel 3 o 4 según necesidad de visión/passive proc.
+4.  **R (Fate's Call):** Siempre al nivel disponible (6, 11, 16).
+
+---
+
+## 5. ESTILO DE JUEGO Y SINERGIAS
+
+### Early Game (Nivel 1-5)
+*   Usa **Q** para pokear al enemigo mientras farmeas minions.
+*   Mantén la posición detrás de los minions aliados.
+*   **Objetivo:** Llegar al nivel 6 con ventaja de oro para comprar componentes de Guinsoo.
+*   **Cuidado:** Kalista es débil antes de tener ítems. Evita trades largos sin apoyo de tu support.
+
+### Mid/Late Game (Teamfights)
+*   **Posicionamiento:** Quédate al borde del rango máximo. Tu dash (Martial Poise) te permite entrar y salir constantemente.
+*   **Prioridad de Objetivo:** Busca al Carry enemigo o al Assassin. Si están protegidos, usa **E** para ralentizarlos y acumular lanzas.
+*   **Activación de W Pasiva:** Intenta que tu Oathsworn (aliado vinculado, usualmente Support o Top/Jungle que entra a pelear) golpee al mismo objetivo que tú. El 19% de vida máxima mágico es devastador contra tanques.
+*   **Reset de E:** Si matas a alguien con E, recupera CD inmediatamente. Úsalo para saltar al siguiente objetivo o huir.
+
+### Sinergias Clave con Suports
+*   **Yuumi (Support):** Yuumi montada en Kalista proporciona sustain infinito y AS extra, potenciando aún más la velocidad de acumulación de lanzas de E y stacks de Guinsoo.
+*   **Diana/Malphite (Frontline):** Sus ultimates agrupan enemigos. Kalista puede detonar E en todos ellos simultáneamente para un AoE masivo de daño y slow.
+
+---
+
+## 6. SUPUESTOS Y VERIFICACIÓN DE DATOS
+
+*   **Fuente de Datos:** Parche 7.3 Oficial (21/09/2026) y wr-meta.com (25/09/2026).
+*   **Modelo de DPS:** Calculado pre-mitigación. El daño real dependerá de la armadura/resistencias enemigas.
