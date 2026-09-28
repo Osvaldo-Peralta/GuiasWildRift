@@ -5,16 +5,11 @@ tags:
 ---
 # Guías de Campeones — Wild Rift
 
-Bienvenido a tu base de conocimiento personal para Wild Rift.
+Bienvenido a WR-LAB tu base de conocimiento personal para Wild Rift.
 
 Cada campeón tiene su propia página con: rol e identidad, build estándar, runas, orden de habilidades, combos, power spikes, matchups (counters y favorables) y consejos de macro.
 
 ---
-
-Link EXTERNO para guías de todos los campeones:
-
-https://www.wildriftguides.com/
-
 ## Glosario rápido (términos que vas a ver seguido)
 
 - ADC / Marksman: el campeón de daño físico sostenido que depende de objetos (Jinx).
@@ -36,7 +31,7 @@ https://www.wildriftguides.com/
 - [[Yuumi]] — Support/Encantadora, campeona "pegada" enfocada en potenciar a su aliado
 - [[Mordekaiser]] — Carril Barón (Top), bruiser de AP
 - [[Cho'Gath - Titán de la Jungla]] — Carril Jungla, tanque de escalado con Feast
-- 
+- [[Cho'Gath - Titán del Barón]] — Carril Barón, tanque de escalado con Feast
 - [[Shyvana]]— Jungla, Dragón/half-dragón
 - [[Volibear]] — Jungla/Carril Barón, bruiser de iniciación
 
