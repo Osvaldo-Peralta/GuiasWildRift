@@ -11,8 +11,8 @@ Status: Beta
 **Enfoque:** Aprovechar su rango base de 650 para procar Magnification y RFC de forma segura.
 
 > [!NOTE]
-> **Estado Meta Actual (Diamond+, 28/09/2026):
-> ** Win Rate 51.41 % | Pick Rate 35.85 % | Ban 42.81 % | Tendencia ↑ | Rol: ADC Bot Lane
+> **Estado Meta Actual (Diamond+, 28/09/2026):**
+> Win Rate 51.41 % | Pick Rate 35.85 % | Ban 42.81 % | Tendencia ↑ | Rol: ADC Bot Lane
 > El buff a su escalado de crítico la devuelve al tier S de lane bullies y ejecutores de late game.
 
 ---

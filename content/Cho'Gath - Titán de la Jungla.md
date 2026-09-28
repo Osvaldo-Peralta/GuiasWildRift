@@ -14,7 +14,6 @@ Status: Beta
 
 > [!NOTE]
 > **Estado Meta Actual (Diamond+, 24/09/2026):**
-> 
 > Jungla: Win Rate 50.78 % | Pick 7.22 % | Ban 38.00 % | Tendencia ↑14.
 > Top: Win Rate 51.20 % | Pick 12.60 % | Ban 38.00 % | Tendencia ↓1.
 
