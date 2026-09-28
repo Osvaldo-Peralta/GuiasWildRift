@@ -1,6 +1,7 @@
 ---
 tags:
-- Soporte
+  - Soporte
+personalizado: true
 ---
 # YUUMI — Modo Agresiva
 
