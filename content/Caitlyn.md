@@ -44,7 +44,7 @@ Status: Beta
 
 ---
 
-## 3. LEYES APLICADAS A CAITLYN
+## 1. LEYES APLICADAS A CAITLYN
 
 ### Ley 4 — Auditoría de Stats Muertos
 *   **Runaan's Hurricane:** ❌ Evitar. Sus rayos laterales no aplican Headshots ni procs de Sheen de manera fiable, y diluyen el daño concentrado del burst.
@@ -53,7 +53,7 @@ Status: Beta
 
 ---
 
-## 4. ANÁLISIS DEL PRIMER ÍTEM
+## 2. ANÁLISIS DEL PRIMER ÍTEM
 
 | Candidato | Oro | Ventaja Temprana | Desventaja | Veredicto |
 | :-- | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Status: Beta
 
 ---
 
-## 5. RUNAS Y HECHIZOS
+## 3. RUNAS Y HECHIZOS
 
 ### Keystones
 1.  **Press the Attack (PTA):** La opción más segura. Sus Headshots aplican PTA instantáneamente, amplificando el burst y facilitando el tradeo.
@@ -83,7 +83,7 @@ Status: Beta
 
 ---
 
-## 6. COMPARATIVA DE DPS (Simulación Nivel 15)
+## 4. COMPARATIVA DE DPS (Simulación Nivel 15)
 
 | Build | Oro Total | AD Bonus | Crit % | Pen % | DPS vs Squishy (Burst) | DPS vs Tank (Sostenido) | Supervivencia |
 | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- |
@@ -97,7 +97,7 @@ La build **"Optima WR-LAB"** que incorpora **Trinity Force** supera a la build c
 
 ---
 
-## 7. CONSEJOS DE JUGABILIDAD (GAMEPLAY LOOP)
+## 5. CONSEJOS DE JUGABILIDAD (GAMEPLAY LOOP)
 
 1.  **Fase de Lane (Pre-6):** Usa **Yordle Snap Trap (W)** para controlar el espacio. No la pongas aleatoriamente; ponla donde el enemigo *tendrá* que pisar para farmear. Auto-ataca para cargar pasiva, dispara Headshot cuando tenga 3 stacks. Repite. Objetivo: Forzar consumibles o conseguir First Blood/Pota.
 2.  **Nivel 6 (Power Spike):** Tu combo letal es **W (Slow/Trap) -> AA (Stack) -> AA (Stack) -> AA (Headshot) -> Q (Peacemaker atraviesa al enemigo herido) -> R (Culling)**. Si aciertas el R, casi siempre matas a un squishy.
@@ -106,7 +106,7 @@ La build **"Optima WR-LAB"** que incorpora **Trinity Force** supera a la build c
 
 ---
 
-## 8. VEREDICTO FINAL
+## 6. VEREDICTO FINAL
 
 Caitlyn en 7.3 es una **máquina de ejecución condicional**. Ya no compite con Jinx en DPS sostenido AoE, ni con Vayne en tank-shredding puro. Su nicho es el **burst distante y la presión de lane absoluta**.
 
@@ -130,4 +130,6 @@ Caitlyn en 7.3 es una **máquina de ejecución condicional**. Ya no compite con 
 - Base de datos de ítems, runas y ficha de campeón — wr-meta.com, sincronizada al 24/09/2026.
 - Modelo matemático, Leyes 0-7 y validaciones — WR-LAB (laboratorio propio).
 
-**Aviso legal:** Wild Rift y League of Legends son marcas registradas de Riot Games, Inc. Este documento es una guía de comunidad con fines educativos, no está afiliado, patrocinado ni respaldado por Riot Games.
+**Aviso legal:** Wild Rift y League of Legends son marcas registradas de Riot Games, Inc. Este documento es una guía de comunidad con fines educativos, **no está afiliado, patrocinado ni respaldado por Riot Games**. Los nombres de ítems, campeones y estadísticas pertenecen a sus respectivos dueños. El análisis y las conclusiones son trabajo original del autor apoyado en WR-LAB.
+
+---
