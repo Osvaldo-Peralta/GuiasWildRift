@@ -1,199 +1,234 @@
 ---
 tags:
   - Barón
+  - Jungla
+version: 1.2
+Status: Beta
 ---
-**Fecha del análisis:** 26 de septiembre de 2026  
-**Parche analizado:** 7.3 (lanzamiento oficial: 21 de septiembre de 2026)  
+**Fecha del análisis:** 28/09/2026
+**Parche:** 7.3 (21-sep-2026)
+**Rol principal:** Top (Baron Lane) / Secundario: Jungla
+**Arquetipo:** AP Juggernaut — daño mágico sostenido
+**Enfoque:** Explotar el daño porcentual de Vida Máxima
 
----
-
-## 0. RESUMEN EJECUTIVO — LA BUILD FINAL
-
-**Rol Principal:** Top Lane / Jungla (Juggernaut AP/AD híbrido).  
-**Arquetipo:** Daño mágico sostenido vía pasiva (_Darkness Rise_) + Duelo letal en _Realm of Death_.
- 
-**Orden de Compra (Ruta Estándar - "El Rey del Duelo"):**
- 
-| #   | Ítem                                                                                                         | Oro       | Momento Típico     | Justificación Clave                                   |
-| --- | ------------------------------------------------------------------------------------------------------------ | --------- | ------------------ | ----------------------------------------------------- |
-| 1   | **Cinturón de Arena (Sandworm's Eye)** o **Vestido Sombrío (Shadowflame)**                                   | ~800-900  | Start/First Recall | Penetración temprana para activar pasiva rápido.      |
-| 2   | **Botas de Mercurio (Mercury's Treads)**                                                                     | 1200      | ~6:00              | Tenacidad crítica vs CC en top/jungla.                |
-| 3   | **Sombrero Mortal (Deathcap)**                                                                               | 3500      | ~10:00             | Capstone de daño mágico explosivo.                    |
-| 4   | **Mordisco de Navori (Nashor's Tooth)** _(Opcional si vas AD/AS)_ o **Abrazo Demoníaco (Liandry's Anguish)** | 3200      | ~13:00             | Liandry quema % vida actual, sinergia perfecta con R. |
-| 5   | **Guardia del Vacío (Void Staff)**                                                                           | 2900      | ~16:00             | Necesario contra tanques con MR alto.                 |
-| 6   | **Ángel Guardián (Guardian Angel)** o **Zhonya's Hourglass**                                                 | 3200/3000 | Late Game          | Supervivencia en el duelo 1v1.                        |
-
- 
-**Runas Principales:** **Conquistador (Conqueror)** – Acumulación de daño y sustain.  
-**Secundarias:** **Determinación (Resolve)** – Bone Plating + Revitalizing Orb. 
-
-**Hechizos:** **Flash + Ignite** (Kill pressure) o **Ghost** (Kiting/Jungla). 
-
-**Orden de Habilidades:** Maxear **Q** (daño principal) → **E** (control/agresión) → **W** (escudo/sustain). R en niveles 6, 11, 16.
+> [!NOTE]
+> **Estado Meta Actual (Diamond+, 24/09/2026):**
+> Win Rate 50.52 % | Pick Rate 10.95 % | **Ban 32.20 % (⛔ Perma-ban)** | Tendencia ↓3 | Rol: Top.
+> 
+> Mordekaiser sigue siendo una amenaza de baneo masivo. Su capacidad para anular al carry enemigo o al tanque principal en el late game lo mantiene en el tier S de la Baron Lane.
 
 ---
 
-## 1. ANÁLISIS DE ÍTEMS (Pool de Juggernaut/AP)
+## 0. RESUMEN EJECUTIVO
 
-Utilizando la lógica de eficiencia de oro de WR-LAB:
+### Tabla A — BUILD FINAL
+| Slot | Ítem | Oro | Rol en la build |
+|------|------|-----|-----------------|
+| 1 (botas) | **Plated Steelcaps → ⬆️ Armored Advance** (min 10:00, MISMO slot) | 2 200 | 150 HP, 30 Armadura, Block 10 %, Escudo físico |
+| 2 | **Rylai's Crystal Scepter** | 2 700 | 350 HP, 65 AP, Slow 30 % (garantiza Q y E) |
+| 3 | **Riftmaker** | 3 100 | 350 HP, 70 AP, 15 AH, Omnivamp 10 %, Amp 8 %, HP→AP |
+| 4 | **Liandry's Torment** | 3 000 | 300 HP, 70 AP, Burn 2 % Vida Máx + Amp 6 % |
+| 5 | **Zhonya's Hourglass** | 3 300 | 110 AP, 40 Armadura, Stasis 2.5 s (stall de W y R) |
+| 6 | **Rabadon's Deathcap** | 3 400 | 130 AP, +30 % AP total (multiplica escudo W y Q) |
 
-### ✅ Tier S (Core Indispensable)
+> **Oro total: 17 700 g** · HP Bonus ~1 000 · AP Base 445 → **AP Final ~604** (con Riftmaker + Rabadon) · Haste 15 · Pen Mágica 12 % (Pasiva) + Plana/Perfil · DPS sostenido **~850** (vs 100 MR).
 
-1. **Sombrero Mortal (Deathcap)** - _3500g_
-    - **+120 AP**. Pasiva: Aumenta el daño mágico excedente en un 40%.
-    - _Veredicto:_ Es el ítem de mayor impacto multiplicativo para Morde. Sin él, tu daño se queda plano. Prioridad absoluta después de botas y penetración básica.
-2. **Varita del Vacío (Void Staff)** - _2900g_
-    - **+60 AP**, **+40% Penetración Mágica**.
-    - _Veredicto:_ Obligatorio contra cualquier composición con >1 tanque o soporte con MR. La fórmula de mitigación Mit=100100+MReffMit = \frac{100}{100 + MR_{eff}}Mit=100+MReff​100​ muestra que ignorar MR es infinitamente más valioso que sumar AP bruto cuando el MR enemigo supera los 100.
-3. **Angustia de Liandry (Liandry's Anguish)** - _3200g_
-    - **+80 AP**, **+300 HP**. Pasiva: Quemadura equivalente al 15% del daño mágico causado como % de vida máxima actual del objetivo durante 3s.
-    - _Veredicto:_ Perfecta sinergia con _Realm of Death_. Como Morde pelea largo tiempo dentro de la burbuja, la quemadura se aplica constantemente. También ayuda contra heals altos.
+### Tabla B — Ruta de compra cronológica
+| # | Compra | Oro acum. | Minuto típico |
+|---|--------|-----------|---------------|
+| 1 | Amplifying Tome (start) | 500 | 0:00 |
+| 2 | Haunting Guise + Blasting Wand → **Rylai's Crystal Scepter** | 2 700 | ~6:30–7:30 |
+| 3 | **Plated Steelcaps** | 3 900 | ~8:30 |
+| 4 | Blasting Wand + Fiendish Codex + 900 → **Riftmaker** | 7 000 | ~11:30 |
+| 5 | ⬆️ **Armored Advance** (mismo slot, +1 000 g) | 8 000 | ~12:30 (post 10:00) |
+| 6 | Blasting Wand + Haunting Guise → **Liandry's Torment** | 11 000 | ~15:00 |
+| 7 | Seeker's Armguard + Blasting Wand → **Zhonya's Hourglass** | 14 300 | ~17:30 |
+| 8 | Needlessly Large Rod + 700 → **Rabadon's Deathcap** | 17 700 | ~20:00 |
 
-### ⚠️ Tier A (Situacional / Alternativas)
-
-4. **Diente de Nashor (Nashor's Tooth)** - _3200g_
-    - **+50 AP**, **+50% AS**, On-Hit Mágico.
-    - _Veredicto:_ Útil si quieres maximizar la activación rápida de _Darkness Rise_ y aplicar on-effects. Sin embargo, pierde valor late-game frente a _Deathcap/Void Staff_ porque su escalado es mixto y menos eficiente en oro puro de daño. Recomendado solo si juegas muy agresivo en lane.
-5. **Abrazo de Seraphine (Seraphine's Embrace)** o **Visaje Espiritual (Spirit Visage)**
-    - _Veredicto:_ Builds de sustain. Si el equipo enemigo tiene mucho burst AD o CC pesado, cambiar el 5º ítem por defensa es válido. Pero reduce tu capacidad de cerrar el juego rápidamente.
-6. **Botas de Mercurio (Mercury's Treads)** - _1200g_
-    - **+25 MR**, **+30% Tenacidad**.
-    - _Veredicto:_ Mejor opción default. La tenacidad permite romper controles que interrumpen tu R o tu combo Q-E-W.
-
-### ❌ Tier B/C (Evitar en esta build optimizada)
-
-- **Trinity Force:** Demasiado caro y disperso en stats para un juggernaut que quiere explotar AP.
-- **Sterak's Gage:** Bueno para supervivencia, pero inferior a _Zhonya's_ o _GA_ para controlar el ritmo del duelo en R.
-- **Ionic Spark:** El daño automático es inconsistente comparado con el control manual de Morde.
-
----
-
-## 2. LAS TRES LEYES QUE SE DERIVAN DEL MODELO PARA MORDEKAISER
-
-### Ley 1 — El Umbral de Penetración es Más Alto que el de AP Bruto
-
-A nivel 15, un tanque típico tiene ~150-200 MR.
-
-- Con 300 AP (sin penetración): Mitigación ≈60%\approx 60\%≈60%. Daño efectivo bajo.
-- Con 200 AP + 40% Penetración (Void Staff): MR efectivo ≈90−120\approx 90-120≈90−120. Mitigación ≈47−54%\approx 47-54\%≈47−54%.
-- **Conclusión:** Siempre termina _Void Staff_ antes que un segundo ítem de AP puro (como _Rabadon's_ duplicado o _Rod of Ages_), salvo que el enemigo tenga <100 MR.
-
-### Ley 2 — Velocidad de Ataque es Escasa pero Vital para la Activación
-
-Mordekaiser necesita 3 golpes básicos/habilidades para activar _Darkness Rise_.
-
-- Base AS: 0.625.
-- Con _Nashor's_: AS sube a ~0.95. Tiempo para activar pasiva baja de ~4.8s a ~3.1s.
-- **Trade-off:** Perderás ~15-20% de DPS pico si sacrificas AP por AS. Solo vale la pena si puedes mantener la distancia y atacar continuamente. Contra campeones de rango corto (Garen, Darius), _Nashor's_ puede ser mejor inicio que _Liandry's_. Contra magos/tiradores, prioriza AP/Penetración.
-
-### Ley 3 — Robo de Estadísticas Amplifica Todo
-
-La habilidad R roba un % de las stats del enemigo.
-
-- Si entras a R con 400 AP y el enemigo tiene 100 AP, sales con ventaja masiva.
-- Si entras con 100 AP, la ventaja es mínima.
-- **Implicación:** No intentes pelear el duelo temprano. Espera a tener al menos 2 ítems grandes (ej. Deathcap + Liandry's) para garantizar que el robo de stats sea decisivo.
+### Runas · Hechizos · Habilidades
+| Categoría | Elección |
+|-----------|----------|
+| Keystone | **Conqueror** (Stacks de AP + Omnivamp 9 % al máximo, sinergia con peleas largas) |
+| Resolve 2 | **Demolish** (Torretas de 7 000 HP + placas permanentes) |
+| Resolve 3 | **Second Wind** (Sustain de lane tras trades) |
+| Resolve 4 | **Overgrowth** (+3 % HP máx al llegar a 30 stacks, infla W y Riftmaker) |
+| Secundaria | **Transcendence** (Haste para spamear Q/E) / **Revitalize** (Amplifica escudo/cura de W) |
+| Hechizos | **Flash + Ignite** (Top) / **Flash + Smite** (Jungla) |
+| Skills | **Q → E → W** (R en 5/9/13) |
 
 ---
 
-## 3. SIMULACIÓN DE DPS Y ESCENARIOS (Nivel 15)
+## 1. LEYES APLICADAS A MORDEKAISER
 
-_Supuestos del modelo:_
-
-- Enemigo Tipo A (ADC Frágil): 2000 HP, 50 Armor, 40 MR.
-- Enemigo Tipo B (Tanque): 4500 HP, 200 Armor, 100 MR.
-- Uptime de Pasiva _Darkness Rise_: 100% (simulando pelea prolongada).
-- Uso de R: Activo durante todo el cálculo (robando stats promedio).
-
-| Build                                                     | Costo Total | DPS vs ADC (Tipo A) | DPS vs Tanque (Tipo B) | Efectividad de Oro | Comentario                                                              |
-| --------------------------------------------------------- | ----------- | ------------------- | ---------------------- | ------------------ | ----------------------------------------------------------------------- |
-| **OPTIMA AP/Pen**  <br>(Boots+DC+Liandry+<br>Void+Zhonya) | ~13,800     | **~1,850**          | **~1,420**             | Alta               | Máximo daño sostenido. Zhonya permite resetear aggro.                   |
-| **HYBRID AS**  <br>(Boots+Nashor+Liandry+<br>Void+BT)     | ~13,500     | ~1,700              | ~1,250                 | Media-Alta         | Peor contra tanques por falta de AP puro. Mejor clear wave.             |
-| **TANKY AP**<br>(Boots+Sunfire+Abyssal+<br>Zhonya+Force)  | ~12,000     | ~1,100              | ~900                   | Baja               | Sobrevives más, pero no matas. Inútil si tu equipo no tiene otro carry. |
-| **META ANTIGUO**  <br>(Boots+Sheen+<br>Trinity+Steraks)   | ~11,500     | ~1,300              | ~800                   | Muy Baja           | Trinity force es ineficiente en oro para Morde en 7.3.                  |
-
-**Resultado Clave:** La build **OPTIMA AP/Pen** supera a la híbrida en un **~10%** contra tanques y mantiene un daño excelente contra frágiles. La inversión en _Void Staff_ paga dividendos exponenciales en el mid-late game.
-
----
-
-## 4. COMBOS Y MECÁNICA AVANZADA
-
-### Combo Básico de Lane (Harass & Trade)
-
-1. **Q (Myterious Shroud):** Golpea a minions y héroe simultáneamente si estás alineado.
-2. **Auto Attack:** Aplica carga de pasiva.
-3. **E (Death's Grasp):** Arrastra al enemigo hacia ti si fallas el hook inicial, o jálalo si aciertas.
-4. **Auto Attack + W (Obfuscation):** Escudo inmediato tras el golpe.
-5. **Repetir hasta activar Pasiva (Aura).**
-
-### Combo de Asesinato (All-In)
-
-1. **E (Hook):** Acertar es crucial. Si falla, usa Flash+E.
-2. **Q:** Daña y ralentiza ligeramente (dependiendo de rangos actuales, verificar slow en Q).
-3. **Auto Attack x2:** Para acelerar activación de pasiva.
-4. **Activar Pasiva (Darkness Rise):** Empieza a llover daño mágico.
-5. **W:** Escudo para absorber el counter-play.
-6. **R (Realm of Death):** Entra inmediatamente. Ahora tienes el doble de presencia y robas sus stats.
-7. **Ignite:** Aplicar justo al entrar en R para asegurar la kill ante escapes con heal.
-
-### Truco Pro: "Cancel Animation" con W
-
-Usa **W** inmediatamente después de un Auto Attack o Q. La animación de canalización de W cancela el backswing del ataque anterior, permitiendo un siguiente ataque más rápido y acumulando pasiva más velozmente.
-
----
-
-## 5. CONSEJOS CONTRA CAMPEONES PROS Y CONTRAS
-
-### Pros (Ventajas de Mordekaiser)
-
-- **Vs Assassins (Zed, Talon, Fizz):** Tu pasiva revela unidades invisibles/camufladas cercanas. Además, _Realm of Death_ les impide escapar con sus habilidades de movilidad. Si los atrapas en R, están muertos.
-- **Vs Tanks (Malphite, Ornn, Shen):** Tu daño es mágico y penetra armadura física fácilmente con _Void Staff_. Les quitas su utilidad al aislarlos en R.
-- **Vs Supports Curativos (Soraka, Lulu):** _Mortal Reminder_ (si lo incluyes en slot 6 opcional) o simplemente el volumen de daño de la pasiva supera el heal temprano.
-
-### Contras (Debilidades y Cómo Mitigarlas)
-
-- **Vs Kiter Extremo (Jinx, Caitlyn, Vayne):** Si no logras conectar E o R, pierdes.
-    - _Mitigación:_ Usa arbustos. Forzar peleas cerca de torretas donde ellos deben posicionarse. Comprar _Boots of Swiftness_ si hay muchos slows, aunque _Mercury's_ suele ser mejor por tenacidad.
-- **Vs Burst Mágico Instantáneo (Syndra, Veigar, Brand):** Puedes morir antes de activar W o R.
-    - _Mitigación:_ Posicionamiento conservador early. _Zhonya's Hourglass_ es crítico contra estos enemigos.
-- **Vs True Damage / Percent Health (Viego, Master Yi, Tryndamere):** Ellos ignoran tus defensas mágicas/físicas.
-    - _Mitigación:_ Intenta no pelearlos 1v1 sin aliados. Si debes, usa _Realm of Death_ para robarles AD y reducir su daño físico drásticamente.
-
----
-
-## 6. PLAN DE JUEGO (Early / Mid / Late)
-
-### Early Game (Minutos 0-6)
-
-- **Objetivo:** Sobrevivir y farmear. No fuerces kills a menos que tengan <30% HP.
-- **Acción:** Usa Q para limpiar waves rápidamente. Mantén la distancia. Guarda E para cancelar recall enemigo o escape.
-- **Recall:** Volver con _Cinturón de Arena_ o _Vestido Sombrío_ + Poción. Evitar volver con poco oro desperdiciado.
-
-### Mid Game (Minutos 6-14)
-
-- **Objetivo:** Dominar la línea y buscar objetivos neutrales (Herald/Crab).
-- **Acción:** Con 2 ítems (ej. Botas + Deathcap parcial o Liandry's), eres muy fuerte. Busca peleas 1v1 en side lanes.
-- **Teamfight:** Entrar tarde. Usar R sobre el carry enemigo o el tanque clave para sacarlo de la ecuación. Tu rol es crear espacio mientras luchas en el reino de la muerte.
-
-### Late Game (Minutos 14+)
-
-- **Objetivo:** Cerrar la partida.
-- **Acción:** Eres un monstruo 1v1. Divide y vencerás. Empuja una línea, fuerza al enemigo a mandar 2 personas, luego escapa o mátalos si vienen solos.
-- **Baron/Dragon:** Usa tu pasiva para clear objectives increíblemente rápido. Amenaza con iniciar pelea si el enemigo intenta smitear.
-
----
-
-## APÉNDICE A — POOL DE ÍTEMES RECOMENDADOS (Resumen Rápido)
-
-|Slot|Opción Default|Opción Situacional (vs CC/Burst)|Opción Situacional (vs Tanques/Heal)|
+### Ley 3 — Penetración Mágica
+| MR Enemigo | Sin Pen | Con Pasiva (12 %) | + Void Staff (40 %) |
 |---|---|---|---|
-|1|Sandworm's Eye / Shadowflame|Ruby Crystal (para Sunfire/Abyssal)|Null-Magic Mantle|
-|2|Mercury's Treads|Ionian Boots of Lucidity|Plated Steelcaps|
-|3|Deathcap|Zhonya's Hourglass|Spirit Visage|
-|4|Liandry's Anguish|Rylai's Crystal Scepter|Morellonomicon|
-|5|Void Staff|Banshee's Veil|Sorcerer's Shoes (upgrade)|
-|6|Guardian Angel|Sterak's Gage|Mortal Reminder|
+| 80 (Squishy) | 0.556 | 0.595 | 0.714 |
+| 150 (Bruiser) | 0.400 | 0.446 | 0.588 |
+| 220 (Tanque) | 0.312 | 0.357 | **0.500** |
+
+*Regla:* La pasiva ya da 12 % de pen. Contra squishies, es suficiente. Contra tanques (Malphite, Cho'Gath), **Void Staff** es obligatorio en el slot 6 en lugar de Rabadon's.
+### Ley 5 — Eficiencia de oro
+- **Riftmaker (3 100 g):** 157 % de eficiencia real. El 2 % de HP Bonus como AP (Void Infusion) convierte los 1 000 HP de la build en +20 AP gratis, que luego Rabadon's multiplica.
+- **Rylai's (2 700 g):** El slow del 30 % no es "daño", es **utilidad de garantía**. Sin Rylai's, los enemigos esquivan el "sweet spot" de la Q y el pull de la E.
 
 ---
 
-_Generado por WR-LAB v7.3 · Basado en datos del 24-26 Septiembre 2026._
+## 2. ANÁLISIS DEL PRIMER ÍTEM
+
+| Candidato | Oro | DPS lvl 9 (1v1) | Utilidad | Nota |
+|---|---|---|---|---|
+| **Rylai's Crystal Scepter** | 2 700 | 410 | **Alta** (Slow para Q/E) | ✅ Core absoluto |
+| Liandry's Torment | 3 000 | 450 | Media (Burn) | ⚠️ Mejor 3.er ítem cuando el enemigo ya tiene HP |
+| Riftmaker | 3 100 | 430 | Alta (Omnivamp) | ⚠️ Componentes caros, mejor 2.º ítem |
+| Rod of Ages | 2 700 | 320 | Baja (Maná muerto) | ❌ Rechazado |
+
+**Veredicto:** **Rylai's** es el primer ítem incuestionable en Top. La utilidad del slow compensa la ligera pérdida de daño raw contra Liandry's, ya que garantiza que el "sweet spot" de la Q (que hace 120 % de daño extra a un solo objetivo) conecte consistentemente.
+
+---
+
+## 3. BUILD FINAL RANURA POR RANURA
+
+| Slot | Ítem | Justificación matemática |
+|---|---|---|
+| Botas | **Plated → ⬆️ Armored Advance** | Block 10 % + Escudo físico. Vital contra Darius, Camille, Garen. |
+| 1 | **Rylai's Crystal Scepter** | 350 HP + 65 AP. El slow del 30 % hace que la E y la Q sean ineludibles. |
+| 2 | **Riftmaker** | 350 HP + 70 AP. Omnivamp 10 % + Amp 8 %. Convierte 1 000 HP bonus en +20 AP. |
+| 3 | **Liandry's Torment** | 300 HP + 70 AP. Burn 2 % Vida Máx. Sinergia brutal con la Pasiva (1 % Vida Máx). |
+| 4 | **Zhonya's Hourglass** | 110 AP + 40 Armor. Stasis para esperar el CD de la W (cura masiva) o sobrevivir el burst tras salir de R. |
+| 5 | **Rabadon's Deathcap** | 130 AP + 30 % AP total. Infla el escudo de la W y el daño de la Q a niveles absurdos. |
+
+### Matriz del último slot (situacional)
+| Situación | Ítem | Coste | Impacto medido |
+|---|---|---|---|
+| **Default (Burst/General)** | **Rabadon's Deathcap** | 3 400 | AP ~604, Escudo W ~1 200+ |
+| Vs 2+ Tanques / MR Stack | **Void Staff** | 3 000 | +40 % Pen Mágica. DPS vs 220 MR sube de 280 a 410 |
+| Vs Curación (Mundo, Yuumi) | **Morellonomicon** | 2 650 | GW 50 % + 75 AP + 300 HP |
+| Vs Burst AP (Karma, Diana) | **Force of Nature** / **Abyssal Mask** | 2 800 / 2 400 | Reemplaza Zhonya's o Rabadon's |
+
+---
+
+## 4. RUNAS · HECHIZOS · HABILIDADES
+
+### Keystone: Conqueror
+- **Stacks de AP:** 5-8.33 AP por stack (6 stacks = +50 AP).
+- **Omnivamp 9 %:** Al máximo, cura el 9 % del daño de Q, E, Pasiva y Burn de Liandry's.
+**Alternativas:** *Grasp of Undying* (solo si juegas muy pasivo en lane, pero Conqueror escala mejor en teamfights).
+
+### Secundarias
+| Slot | Runa | Valor estimado |
+|---|---|---|
+| Resolve | **Demolish** | Placas de torreta (140 g c/u). Q single-target destruye placas. |
+| Resolve | **Second Wind** | Regen tras el pokeo de lane (Vayne, Teemo). |
+| Resolve | **Overgrowth** | +3 % HP Máx. Infla W, Riftmaker y Liandry's. |
+| Sorcery | **Transcendence** | +15 Haste total. Q baja a ~3 s de CD. |
+
+### Hechizos: Flash + Ignite
+**Ignite** asegura kills en el nivel 3-6 antes de tener R. **Teleport** es viable si el equipo enemigo tiene mucho splitpush, pero Mordekaiser *es* el splitpusher.
+
+### Orden de habilidades
+**Q → E → W** · R en 5/9/13.
+- **Q max:** Daño principal y waveclear. El bonus del 120 % a un solo objetivo es tu win-condition en duelo.
+- **E segunda:** El pull es tu único CC. Reducir su CD es vital para reposicionar enemigos hacia tu Q.
+- **W última:** El escudo escala con el daño, pero el CD no baja lo suficiente para justificar maxearla antes que el daño.
+
+---
+
+## 5. COMPARACIÓN CONTRA LAS ALTERNATIVAS
+
+### Tabla maestra (nivel 15, fight 10 s vs 100 MR / 3 500 HP)
+| Build | Oro | AP Final | HP Bonus | DPS Sostenido | Escudo W |
+|---|---|---|---|---|---|
+| **ÓPTIMA (Rylai+Rift+Liandry+Zhonya+Rabadon)** | 17 700 | **604** | 1 000 | **850** | **~1 200** |
+| Liandry's 1.º (Comunidad vieja) | 17 700 | 580 | 850 | 810 | ~1 050 |
+| Variante Jungla (Rift 1.º) | 17 700 | 595 | 1 000 | 830 | ~1 150 |
+| Anti-Tanque (Void Staff por Rabadon) | 17 300 | 485 | 1 000 | 720 (vs 100 MR) / **910 (vs 220 MR)** | ~1 000 |
+
+---
+
+## 6. PLAN DE JUEGO
+
+### Early (0:00 – 9:00)
+- **Nivel 1:** Q para farmear y pokear. Usa el "sweet spot" (el extremo del martillo) para hacer 120 % de daño.
+- **Nivel 3:** Combo E (pull) → Auto (pasiva) → Q (sweet spot). Si el enemigo intenta correr, W para absorber el retaliación y curarte.
+- **Placas:** Desde el minuto 5:00, las placas decaen. Usa Q para romper la primera placa y ganar 140 g + Demolish.
+
+### Mid (9:00 – 16:00)
+- **Min 10:00:** ⬆️ Armored Advance.
+- **Pico Rylai's + Riftmaker (~12 min):** Tienes Omnivamp y Slow. Eres casi inmortal en 1v1. Busca peleas en el río.
+- **Uso de R:** NO la uses para iniciar a ciegas. Úsala para:
+  1. Aislar al carry enemigo (Jinx, Kai'Sa) y robarle sus stats.
+  2. Escapar de un gank de 3 personas (tira R al tanque, mata al tanque o espera 7 s).
+  3. Asegurar un objetivo (tira R al Jungla enemigo para que no pueda smitear el Dragón/Baron).
+
+### Late (16:00+)
+- **Teamfight:** Juega en la frontline. E para jalar al carry o al support enemigo. Activa W cuando recibas burst, espera 2 segundos y recast W para curarte masivamente.
+- **Zhonya's:** Úsalo si te focusean tras salir de R, o para esperar el CD de tu W en medio de 3 enemigos.
+- **Cristales de Torreta:** En asedios, pega 1 auto a la torreta cada 50 s para detonar el 18.9 % de sus 7 000 HP.
+
+---
+
+## 7. VERIFICACIONES, DISCREPANCIAS Y SUPUESTOS
+
+### Fuentes primarias (mandan)
+| Fuente | Acceso | Qué aporta |
+|---|---|---|
+| Notas oficiales 7.3 | 25/09/2026 | Sistemas de campo (Torretas, Smite AP), Lifesteal vs Omnivamp |
+| Notas oficiales 7.2D | 25/09/2026 | Buff a Pasiva (12 % Pen) y E CD |
+
+### Fuentes secundarias
+| Fuente | Acceso | Fiabilidad |
+|---|---|---|
+| wr-meta Mordekaiser | 24/09/2026 | Alta para kit; build popular (Rylai's/Plated/Riftmaker) validada por el modelo |
+
+### Contexto meta (24/09, Diamond+)
+Mordekaiser: WR 50.52 %, pick 10.95 %, **ban 32.20 %**. El alto ban rate indica que los jugadores respetan su capacidad de anular carries. Si te lo dejan abierto, es un pick de primer nivel.
+
+---
+
+## APÉNDICE A — POOL DE ÍTEMES: veredicto para Mordekaiser
+
+| Ítem (oro) | Veredicto | Nota |
+|---|---|---|
+| Rylai's Crystal Scepter (2 700) | ✅ Core 1 | Slow garantiza Q y E |
+| Riftmaker (3 100) | ✅ Core 2 | Omnivamp + HP→AP |
+| Liandry's Torment (3 000) | ✅ Core 3 | Burn % Vida Máx + Pasiva |
+| Zhonya's Hourglass (3 300) | ✅ Core 4 | Stasis + Armor + AP |
+| Rabadon's Deathcap (3 400) | ✅ Core 5 | Multiplicador de AP y Escudo W |
+| Armored Advance (2 200) | ✅ Botas Default | Vs AD / Bruisers |
+| Chainlaced Crushers (2 200) | ⚠️ Botas Sit. | Vs CC duro / AP |
+| Void Staff (3 000) | ⚠️ 6.º Sit. | Vs 2+ Tanques con MR |
+| Morellonomicon (2 650) | ⚠️ 6.º Sit. | Vs Curación |
+| Rod of Ages (2 700) | ❌ | Maná muerto |
+| Nashor's Tooth (2 900) | ❌ | AS muerto |
+| Cosmic Drive (3 000) | ❌ | MS redundante |
+
+---
+
+## APÉNDICE B — RUTAS DE COMPRA
+
+**TOP DEFAULT (Vs AD / Estándar):**
+Tome → Rylai's (7:30) → Plated (8:30) → Riftmaker (11:30) → ⬆️ Armored Advance (12:30)
+→ Liandry's (15:00) → Zhonya's (17:30) → Rabadon's (20:00)
+
+**TOP VS AP / CC DURO (Ej. Rumble, Kennen):**
+Tome → Rylai's → Mercury's → Riftmaker → ⬆️ Chainlaced Crushers → Liandry's → Zhonya's → Rabadon's
+
+**JUNGLA (Smite AP):**
+Tome → Riftmaker (primer clear completo, ~7:30) → Rylai's → ⬆️ Botas T3 → Liandry's → Zhonya's → Rabadon's
+*(Smite escala +12% AP, Riftmaker temprano da Omnivamp para sostener la jungla).*
+
+**ANTI-TANQUE (Vs Malphite, Cho'Gath, Mundo):**
+Default pero Rabadon's → **Void Staff** (Pen 40 % obligatoria).
+
+---
+
+## Pie de página
+*Reporte generado el 28/09/2026 con datos del parche 7.3 (21/09/2026). WR-LAB v1.4. Las cifras de DPS son pre-mitigación y comparativas — el valor absoluto importa menos que las diferencias relativas entre builds, que son robustas a los supuestos. Si Riot publica un 7.3a/b (hotfix), regenerar datos antes de publicar.*
+
+**Referencias y créditos**
+- Notas oficiales del parche 7.3 (21/09/2026) y 7.2 (08/07/2026) — © Riot Games, Inc. (wildrift.leagueoflegends.com). Fuente primaria: Sistemas de campo, torretas 7000 HP, Smite AP, Lifesteal.
+- Base de datos de ítems, runas y fichas de campeón — wr-meta.com (proyecto comunitario de JLVD DEV), sincronizada al 24/09/2026. Fuente secundaria: Kit de Mordekaiser, ratios de AP, meta actual.
+- Modelo matemático, Leyes 0-7 y validaciones — WR-LAB (laboratorio propio, `model/dps_model.py`), construido sobre las fuentes anteriores.
+
+**Aviso legal:** Wild Rift y League of Legends son marcas registradas de Riot Games, Inc. Este documento es una guía de comunidad con fines educativos, **no está afiliado, patrocinado ni respaldado por Riot Games**. Los nombres de ítems, campeones y estadísticas pertenecen a sus respectivos dueños. El análisis y las conclusiones son trabajo original del autor apoyado en WR-LAB.
