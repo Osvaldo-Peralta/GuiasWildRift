@@ -27,7 +27,8 @@ Cada campeón tiene su propia página con: rol e identidad, build estándar, run
 - [[Caitlyn]]— ADC/Marksman (S+), build de headshot y control de línea
 - [[Sivir]]— ADC/Marksman, tirador de utilidad y escalado
 - [[Kalista]]— ADC/Marksman (Tirador)
-- [[Diana]] — Mid/Jungla
+- [[Diana - Jungla]] — Modo cazadora Jungla/Mid
+- [[Diana - Mid]] — Supervivencia vs Magos Mid/Jungla
 - [[Yuumi]] — Support/Encantadora, campeona "pegada" enfocada en potenciar a su aliado
 - [[Mordekaiser]] — Carril Barón (Top), bruiser de AP
 - [[Cho'Gath - Titán de la Jungla]] — Carril Jungla, tanque de escalado con Feast
