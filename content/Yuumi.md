@@ -1,7 +1,7 @@
 ---
 tags:
   - Soporte
-  - Personalizado
+  - Custom
 version: 1.2
 Status: Aprobado
 ---

@@ -1,13 +1,14 @@
 ---
 tags:
   - Jungla
+  - Barón
+Status: Beta
+version: 1.1
 ---
 **Fecha del análisis:** 26 de septiembre de 2026  
 **Parche analizado:** 7.3 (lanzamiento oficial: 21 de septiembre de 2026)  
 **Rol principal:** Jungla / Top Lane  
 **Arquetipo:** Fighter Híbrido (On-Hit + AP Burst) con escalamiento de Velocidad de Ataque  
-
-**Metodología:** Notas oficiales del parche 7.3 (`wildrift.leagueoflegends.com`), base de datos de ítems actualizada al 24-sep-2026 (`wr-meta.com`), y modelo propio `dps_model.py` con spec `volibear`. Se han verificado los cambios sistémicos de jungla (Smite burn scaling) y nerfs a la pasiva de Volibear.
 
 ---
 

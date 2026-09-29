@@ -2,7 +2,7 @@
 tags:
   - Mid
   - Jungla
-  - Personalizado
+  - Custom
 version: 1.2
 Status: Beta
 ---

@@ -1,7 +1,8 @@
 ---
 tags:
   - Mid
-personalizada: true
+Status: Update
+version: 1
 ---
 **Fecha del análisis:** 28/09/2026 · **Parche:** 7.3 (21-sep-2026)
 **Enfoque:** Hiper-Daño (Burst/Asesino AP) con red de seguridad (Supervivencia reactiva).
