@@ -8,7 +8,7 @@ patch: "7.3"
 ---
 **Fecha del análisis:** 27/09/2026
 **Parche:** 7.3 (21-sep-2026)
-**Rol principal:** Support (Bot Lane)
+**Rol principal:** Support (Variante agresiva)
 **Arquetipo:** Poke-Hybrid Support
 **Enfoque:** Sacrificar ~15-20 % de escudo puro (E) a cambio de ~40 % más de daño en Q y utilidad de equipo por daño infligido.
 
