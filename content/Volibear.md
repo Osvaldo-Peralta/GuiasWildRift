@@ -4,6 +4,7 @@ tags:
   - Barón
 Status: Beta
 version: 1.1
+patch: 7.3a
 ---
 **Fecha del análisis:** 26 de septiembre de 2026  
 **Parche analizado:** 7.3 (lanzamiento oficial: 21 de septiembre de 2026)  

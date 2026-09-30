@@ -1,6 +1,9 @@
 ---
 tags:
-- ADC
+  - ADC
+Status: Rechazado
+version: 1
+patch: "7.3"
 ---
 **Fecha del análisis:** 27/09/2026 · **Parche:** 7.3 (lanzado 21-sep-2026)
 **Metodología:** Notas oficiales 7.3, BD de ítems/runas (wr-meta.com, 24/09/2026), modelo propio `wr-lab/model/dps_model.py` con spec `yunara`.

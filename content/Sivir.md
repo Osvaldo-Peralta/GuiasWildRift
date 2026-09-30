@@ -1,6 +1,9 @@
 ---
 tags:
   - ADC
+Status: Beta
+version: 1
+patch: "7.3"
 ---
 **Fecha del análisis:** 27/09/2026 · **Parche:** 7.3 (21-sep-2026)
 

@@ -1,6 +1,9 @@
 ---
 tags:
   - Soporte
+Status: Beta
+version: 1
+patch: "7.3"
 ---
 **Fecha del análisis:** 27 de septiembre de 2026  
 **Parche analizado:** 7.3 (lanzamiento oficial: 21 de septiembre de 2026)  

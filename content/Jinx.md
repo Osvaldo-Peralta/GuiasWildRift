@@ -3,6 +3,7 @@ tags:
   - ADC
 version: 1.3
 Status: Aprobado
+patch: "7.3"
 ---
 **Fecha del análisis:** 27/09/2026
 **Parche:** 7.3 (21-sep-2026)

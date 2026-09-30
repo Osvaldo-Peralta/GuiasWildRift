@@ -4,6 +4,7 @@ tags:
   - Jungla
 version: 1.2
 Status: Beta
+patch: "7.3"
 ---
 **Fecha del análisis:** 28/09/2026
 **Parche:** 7.3 (21-sep-2026)
