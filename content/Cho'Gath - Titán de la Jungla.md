@@ -2,10 +2,23 @@
 tags:
   - Barón
   - Jungla
-  - Custom
+  - Personalizado
 version: 1.2
 Status: Beta
+champion: Cho'Gath
+slug: chogath-titan-de-la-jungla
+role: jungla
+variant: "titan-de-la-jungla"
 patch: "7.3"
+archetype: "Tanque de Escalado Infinito"
+engine: none
+custom: "true"
+generate: manual
+mode: sr
+published_at: "2026-09-28"
+updated_at: "2026-10-04"
+verification: ANOTAR
+verified_patch: "7.3a"
 ---
 **Fecha del análisis:** 28/09/2026
 **Parche:** 7.3 (21-sep-2026)
@@ -13,8 +26,18 @@ patch: "7.3"
 **Arquetipo:** Tanque de Escalado Infinito
 **Enfoque:** Convertir el tamaño en poder real
 
+<!-- WRLAB-VERIF:7.3a:START — generado por model/update_reports.py · no editar a mano -->
+> [!NOTE] ✅ ANOTAR Verificación automática (04/10/2026) — **NO requiere regeneración — hotfix 7.3a**
+> **Cambios directos a Cho'Gath:** ninguno en 7.3a.
+> **Modelo:** sin hook cuantitativo (sin modelo cuantitativo para este campeón/arquetipo) → triage por intersección (champion/ítems/sistemas). Métricas publicadas sin cambios medibles.
+> **Build publicada (6 slots, Ley 0):** Armored Advance + Heartsteel + Hollow Radiance + Liandry's Torment + Force of Nature + Warmog's Armor — **sin cambios**.
+> **Sistema (7.3a):** Smite burn vs monstruos: 30–198/s → **22–162/s** → Jungla early más lenta → Diana jungla: Nashor's 1.º aún más correcto; Shyvana/Volibear/Cho'Gath jungla: clear early −15-20 %
+> **Veredicto:** ✅ ANOTAR — build, ruta de compra y veredictos siguen vigentes; este bloque es la constancia de verificación.
+<!-- WRLAB-VERIF:7.3a:END -->
+
 > [!NOTE]
 > **Estado Meta Actual (Diamond+, 24/09/2026):**
+> 
 > Jungla: Win Rate 50.78 % | Pick 7.22 % | Ban 38.00 % | Tendencia ↑14.
 > Top: Win Rate 51.20 % | Pick 12.60 % | Ban 38.00 % | Tendencia ↓1.
 

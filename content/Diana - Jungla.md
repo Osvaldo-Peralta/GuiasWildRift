@@ -4,13 +4,36 @@ tags:
   - Mid
 version: 1.2
 Status: Beta
+champion: Diana
+slug: diana-jungla
+role: jungla
+variant: "jungla"
 patch: "7.3"
+archetype: "AP assassin híbrido"
+engine: rotacion
+custom: false
+generate: manual
+mode: sr
+published_at: "2026-09-29"
+updated_at: "2026-10-04"
+verification: ANOTAR
+verified_patch: "7.3a"
 ---
 **Fecha del análisis:** 29/09/2026
 **Parche:** 7.3 (21-sep-2026)
 **Rol principal:** Jungla
 **Arquetipo:** AP assassin híbrido
 **Enfoque:** Explotar el Lethal Tempo rehecho
+
+<!-- WRLAB-VERIF:7.3a:START — generado por model/update_reports.py · no editar a mano -->
+> [!NOTE] ✅ ANOTAR Verificación automática (04/10/2026) — **NO requiere regeneración — hotfix 7.3a**
+> **Cambios directos a Diana:** ninguno en 7.3a.
+> **Δ del modelo:** 0 % — ningún input del campeón/build cambió en el motor.
+> **Build publicada (6 slots, Ley 0):** Spellslinger's Shoes + Nashor's Tooth + Dusk and Dawn + Rabadon's Deathcap + Zhonya's Hourglass + Cryptbloom — **sin cambios**.
+> **Sistema (7.3a):** Smite burn vs monstruos: 30–198/s → **22–162/s** → Jungla early más lenta → Diana jungla: Nashor's 1.º aún más correcto; Shyvana/Volibear/Cho'Gath jungla: clear early −15-20 %
+> **Nota del lab (diff 7.3a):** Smite burn −18 % → clear early más lento (refuerza Nashor's 1.º en jungla) → Anotado
+> **Veredicto:** ✅ ANOTAR — build, ruta de compra y veredictos siguen vigentes; este bloque es la constancia de verificación.
+<!-- WRLAB-VERIF:7.3a:END -->
 
 > [!NOTE]
 > **Estado Meta Actual (Diamond+, 24/09/2026):**
