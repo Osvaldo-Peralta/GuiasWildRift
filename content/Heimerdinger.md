@@ -1,18 +1,33 @@
 ---
 tags:
   - Mid
-Status: Beta
 version: 1
-patch: "7.3"
+Status: Beta
+champion: Heimerdinger
+slug: heimerdinger
+role: mid
+engine: none
+custom: false
+generate: manual
+mode: sr
+published_at: "2026-09-26"
+updated_at: "2026-10-04"
+verification: SIN_IMPACTO
+verified_patch: "7.3a"
 ---
 **Fecha del análisis:** 26 de septiembre de 2026  
-**Parche analizado:** 7.3 (lanzamiento oficial: 21 de septiembre de 2026)  
 
 ---
 
-## 0. RESUMEN EJECUTIVO — LA BUILD FINAL
+<!-- WRLAB-VERIF:7.3a:START — generado por model/update_reports.py · no editar a mano -->
+> [!NOTE] ✅ SIN IMPACTO Verificación automática (04/10/2026) — **NO requiere regeneración — hotfix 7.3a**
+> **Cambios directos a Heimerdinger:** ninguno en 7.3a.
+> **Modelo:** sin hook cuantitativo (sin modelo cuantitativo para este campeón/arquetipo) → triage por intersección (champion/ítems/sistemas). Métricas publicadas sin cambios medibles.
+> **Build publicada:** no extraíble automáticamente del formato del vault → triage cualitativo (intersección champion/ítems/sistemas).
+> **Veredicto:** ✅ SIN IMPACTO — build, ruta de compra y veredictos siguen vigentes; este bloque es la constancia de verificación.
+<!-- WRLAB-VERIF:7.3a:END -->
 
-**Orden de compra (ruta por defecto):**
+## 0. RESUMEN EJECUTIVO
 
 | #   | Ítem                                                    | Oro              | Momento típico                      |
 | --- | ------------------------------------------------------- | ---------------- | ----------------------------------- |
@@ -23,7 +38,7 @@ patch: "7.3"
 | 5   | **Horizon Focus** (Enfoque del Horizonte)               | 3000             | ~16:00–17:00                        |
 | 6   | **Zhonya's Hourglass** (Reloj de Arena de Zhonya)       | 2600             | ~19:00–20:00                        |
 
-**Total de oro:** ~14.200 (sin contar componentes parciales ni wards/control).
+> **Total de oro:** ~14.200 (sin contar componentes parciales ni wards/control).
 
 **Runas:**
 1. Electrocute (Electrocutar) · Taste of Blood (Sabores de Sangre) · Eyeball Collection (Colección de Ojos) · Ravenous Hunter (Cazador Insaciable)
